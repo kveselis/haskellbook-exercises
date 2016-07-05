@@ -34,6 +34,8 @@ allAwsome = [awsome, alsoAwsome]
 
 -- 4.
 -- 6 `div` length [1, 2, 3]
+-- or
+-- div 6 length [1, 2, 3]
 
 -- 5.
 -- 2 + 3 == 5
