@@ -1,3 +1,5 @@
+{-# LANGUAGE TemplateHaskell #-}
+
 module Types where
 
 -- Intermission: Exercises
@@ -15,6 +17,8 @@ module Types where
 -- c) - a)
 -- d) - b)
 -- e) - e)
+
+
 
 nonsense :: Bool -> Integer
 nonsense True = 805
@@ -234,3 +238,5 @@ xfrom (x, y) = (xz x, yz y)
 -- 4.
 munge :: (x -> y) -> (y -> (w, z)) -> x -> w
 munge f g x = fst (g (f x))
+
+
